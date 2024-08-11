@@ -15,3 +15,11 @@ variable "environment_tag" {
   description = "Environment tag"
   default = "dev"
 }
+variable "INSTANCE_USERNAME" {
+  description = "username"
+  default = "ec2-user"
+}
+variable "PATH_TO_PRIVATE_KEY" {
+  description = "path of the private key file"
+  default = "C:/Users/Jay Patel/Downloads/7.20.pem"
+}
