@@ -22,7 +22,7 @@ secret.tfvars
 *.tfplan
 
 # Terraform state files
-*.tfstate
+*.tfstate 
 *.tfstate.*
 
 # Backup files created by editors
