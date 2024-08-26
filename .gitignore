@@ -37,3 +37,7 @@ secret.tfvars
 
 # Output files
 *.out
+
+# Terragrunt files
+.terragrunt-cache/
+*.hcl.lock
