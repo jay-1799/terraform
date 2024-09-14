@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo "This is a simple buildspec file"
+
+  build:
+    commands:
+      - echo $WEBSITE_BUCKET_NAME
+      - aws s3 cp index.html s3://project12-website-bucket
+      - aws s3 cp style.css s3://project12-website-bucket
+artifacts:
+  files:
+    - index.html
+    - style.css
